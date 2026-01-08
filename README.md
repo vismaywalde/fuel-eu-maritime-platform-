@@ -46,12 +46,12 @@ This project demonstrates how FuelEU Maritime compliance can be modeled, calcula
 
 
 ### Repository Layout
-fuel-eu-maritime-platform/
-├── frontend/
-├── backend/
-├── AGENT_WORKFLOW.md
-├── README.md
-└── REFLECTION.md
+fuel-eu-maritime-platform/ <br>
+├── frontend/  <br>
+├── backend/ <br>
+├── AGENT_WORKFLOW.md <br>
+├── README.md <br>
+└── REFLECTION.md <br>
 
 
 
@@ -59,18 +59,18 @@ fuel-eu-maritime-platform/
 
 ## Backend Architecture
 
-backend/src/
-├── core/
-│ ├── domain/
-│ ├── application/
-│ └── ports/
-├── adapters/
-│ ├── inbound/http/
-│ └── outbound/postgres/
-├── infrastructure/
-│ ├── db/
-│ └── server.ts
-└── shared/
+backend/src/ <br>
+├── core/ <br>
+│ ├── domain/ <br>
+│ ├── application/ <br>
+│ └── ports/ <br>
+├── adapters/ <br>
+│ ├── inbound/http/ <br>
+│ └── outbound/postgres/ <br>
+├── infrastructure/ <br>
+│ ├── db/ <br>
+│ └── server.ts <br>
+└── shared/ <br>
 
 <img width="1920" height="1080" alt="Screenshot 2026-01-06 155948" src="https://github.com/user-attachments/assets/84d56b19-b37f-4cdd-bef3-2cf5b06668c6" />
 
@@ -85,14 +85,14 @@ backend/src/
 
 ## Frontend Architecture
 
-frontend/src/
-├── core/
-├── adapters/
-│ ├── ui/
-│ └── infrastructure/
-├── shared/
-├── App.tsx
-└── main.tsx
+frontend/src/ <br>
+├── core/ <br>
+├── adapters/ <br>
+│ ├── ui/ <br>
+│ └── infrastructure/ <br>
+├── shared/ <br>
+├── App.tsx <br>
+└── main.tsx <br>
 
 
 - **UI Adapters**: React components (Routes, Compare, Banking, Pooling)
@@ -137,22 +137,14 @@ Backend runs on:
 http://localhost:3000
 
 
-
-
-
-
-
-Frontend Setup & Run
-bash
-Copy code
+Frontend Setup & Run <br>
 cd frontend
 npm install
 npm run dev
 Frontend runs on:
-
-arduino
-Copy code
 http://localhost:5173
+
+ <br> <br>
 API Endpoints (Sample)
 Routes
 GET /routes
@@ -188,41 +180,42 @@ Copy code
     }
   ]
 }
+
 Testing
 Backend
-Unit tests for CB calculation, banking, and pooling logic
+Unit tests for CB calculation, banking, and pooling logic <br>
 
-Integration tests via Supertest
+Integration tests via Supertest <br>
 
 bash
 Copy code
 npm run test
 Frontend
-Manual verification via UI and browser Network tab
+Manual verification via UI and browser Network tab <br>
 
-Backend dependency confirmed (no mock data used)
+Backend dependency confirmed (no mock data used) <br>
 
 AI Agent Usage
 AI agents were used transparently and responsibly throughout the project.
-Detailed documentation is available in:
+Detailed documentation is available in: <br>
 
-📄 AGENT_WORKFLOW.md
+📄 AGENT_WORKFLOW.md <br>
 
 Key Design Decisions
-Strict separation between domain logic and infrastructure
+Strict separation between domain logic and infrastructure <br>
 
-No business logic inside controllers or React components
+No business logic inside controllers or React components <br>
 
-No mock data used in the frontend
+No mock data used in the frontend <br>
 
 TypeScript strict mode enabled across the project
 
 Manual validation of all AI-generated outputs
 
 Compliance Reference
-All formulas, constants, and rules are based on:
+All formulas, constants, and rules are based on: <br>
 
-FuelEU Maritime Regulation (EU) 2023/1805
+FuelEU Maritime Regulation (EU) 2023/1805 <br>
 Articles 20–21, Annex IV
 
 
