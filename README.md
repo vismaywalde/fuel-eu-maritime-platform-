@@ -133,6 +133,10 @@ Backend runs on:
 http://localhost:3000
 
 
+![image](https://drive.google.com/file/d/1RrQAlriWIaIpAsfZoBWxvbojcrJNjFO0/view?usp=sharing)
+
+
+
 
 Frontend Setup & Run
 bash
