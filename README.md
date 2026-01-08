@@ -34,6 +34,7 @@ This project demonstrates how FuelEU Maritime compliance can be modeled, calcula
 - PostgreSQL
 - Prisma ORM
 
+
 ### Architecture
 - Hexagonal / Clean Architecture
 - Ports & Adapters
@@ -42,6 +43,7 @@ This project demonstrates how FuelEU Maritime compliance can be modeled, calcula
 ---
 
 ## Project Structure
+
 
 ### Repository Layout
 fuel-eu-maritime-platform/
@@ -70,6 +72,7 @@ backend/src/
 │ └── server.ts
 └── shared/
 
+<img width="1920" height="1080" alt="Screenshot 2026-01-06 155948" src="https://github.com/user-attachments/assets/84d56b19-b37f-4cdd-bef3-2cf5b06668c6" />
 
 
 
@@ -97,6 +100,7 @@ frontend/src/
 - **Shared**: TypeScript interfaces
 
 Frontend depends only on API contracts, not backend internals.
+<img width="1264" height="931" alt="Screenshot 2026-01-06 155457" src="https://github.com/user-attachments/assets/80393e60-2873-4bfd-9bd2-a2c54d9d2e03" />
 
 ---
 
@@ -133,7 +137,7 @@ Backend runs on:
 http://localhost:3000
 
 
-![image](https://drive.google.com/file/d/1RrQAlriWIaIpAsfZoBWxvbojcrJNjFO0/view?usp=sharing)
+
 
 
 
